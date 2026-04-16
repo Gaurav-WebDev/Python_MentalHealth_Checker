@@ -3,7 +3,7 @@ import streamlit as st
 import pickle
 
 # Load the trained model
-model = pickle.load(open('mental_model.pkl', 'rb'))
+model = pickle.load(open('./mental_model.pkl', 'rb'))
 
 # Streamlit Page Settings
 st.set_page_config(page_title="Mental Fitness Checker", layout="centered")
